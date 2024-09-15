@@ -1,0 +1,99 @@
+@import url(https://fonts.google.com/specimen/Figtree);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* 
+- Yellow: hsl(47, 88%, 63%)
+
+- White: hsl(0, 0%, 100%)
+
+- Gray 500: hsl(0, 0%, 42%)
+- Gray 950: hsl(0, 0%, 7%) */
+body {
+  font-size: 14px;
+  background-color: hsl(47, 88%, 63%);
+  max-width: 500px;
+  margin: 0 auto;
+  height: 100vh;
+}
+h1,
+h3,
+p {
+  font-size: 16px;
+  color: hsl(0, 0%, 42%);
+  font-family: "Figtree" sans-serif;
+  margin-bottom: 20px;
+}
+h1 {
+  font-size: 24px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+
+  padding-left: 10px;
+
+  margin: 20px;
+  border: 1px solid hsl(0, 0%, 7%);
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.img {
+  border-radius: 20px;
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.content {
+  padding-left: 15px;
+}
+.p-link {
+  color: hsl(0, 0%, 7%);
+  font-weight: 800;
+}
+.second-p {
+  color: hsl(0, 0%, 7%);
+}
+.link {
+  display: inline-block;
+  text-decoration: none;
+  background-color: hsl(47, 88%, 63%);
+  color: hsl(0, 0%, 7%);
+  padding: 8px 14px;
+}
+
+article h1 {
+  font-weight: bolder;
+  color: hsl(0, 0%, 7%);
+}
+.act:active {
+  color: hsl(47, 88%, 63%);
+}
+article p {
+  width: 80%;
+  line-height: 1.6;
+  letter-spacing: 1.2;
+}
+.greg {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+.greg .h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.greg .h3 h3 {
+  font-weight: bolder;
+  color: hsl(0, 0%, 7%);
+}
